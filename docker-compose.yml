@@ -1,0 +1,7 @@
+# S3-compatible object storage for local runs (SeaweedFS S3 gateway on :8333).
+# In production, point SKILLS_S3_BUCKET / AWS credentials at AWS S3 and drop SKILLS_S3_ENDPOINT.
+services:
+  s3:
+    image: chrislusf/seaweedfs:latest
+    command: server -dir=/data -s3 -s3.port=8333
+    ports: ["8333:8333"]
