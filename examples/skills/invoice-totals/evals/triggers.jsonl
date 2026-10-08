@@ -1,0 +1,8 @@
+{"query": "what's the total for this invoice with 8% tax? widget,2,9.99 / cable,3,4.50", "should_trigger": true}
+{"query": "does this bill add up? item,qty,unit_price rows below", "should_trigger": true}
+{"query": "run invoice-totals on these line items", "should_trigger": true}
+{"query": "how much tax is on these line items at 7.5 percent", "should_trigger": true}
+{"query": "draft a polite email reminding the client the payment is late", "should_trigger": false}
+{"query": "which columns in this export have missing values", "should_trigger": false}
+{"query": "write release notes for version 2.3", "should_trigger": false}
+{"query": "translate this paragraph into French", "should_trigger": false}

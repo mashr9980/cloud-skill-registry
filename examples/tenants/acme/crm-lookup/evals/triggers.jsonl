@@ -1,0 +1,8 @@
+{"query": "who owns the account for jane@northwind.com", "should_trigger": true}
+{"query": "when does the northwind account renew", "should_trigger": true}
+{"query": "what plan is this customer on? jane@northwind.com", "should_trigger": true}
+{"query": "look up this customer in the CRM", "should_trigger": true}
+{"query": "total this invoice with 8% tax", "should_trigger": false}
+{"query": "write release notes for 2.0", "should_trigger": false}
+{"query": "profile this csv", "should_trigger": false}
+{"query": "translate this email into Spanish", "should_trigger": false}

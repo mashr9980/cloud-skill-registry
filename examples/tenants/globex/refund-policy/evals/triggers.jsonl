@@ -1,0 +1,6 @@
+{"query": "can I get a refund, I bought it last week", "should_trigger": true}
+{"query": "refund policy?", "should_trigger": true}
+{"query": "customer wants money back after cancelling", "should_trigger": true}
+{"query": "change my password", "should_trigger": false}
+{"query": "write release notes", "should_trigger": false}
+{"query": "profile this csv export", "should_trigger": false}

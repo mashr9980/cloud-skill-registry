@@ -1,0 +1,8 @@
+{"query": "can I get my money back on the annual plan?", "should_trigger": true}
+{"query": "customer wants a refund 20 days after paying", "should_trigger": true}
+{"query": "how is a prorated refund worked out for an annual plan", "should_trigger": true}
+{"query": "what's our refund policy", "should_trigger": true}
+{"query": "change the billing email on my account", "should_trigger": false}
+{"query": "total this invoice with 8% tax", "should_trigger": false}
+{"query": "write release notes for 1.2", "should_trigger": false}
+{"query": "profile this csv", "should_trigger": false}

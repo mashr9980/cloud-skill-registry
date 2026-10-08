@@ -1,0 +1,8 @@
+{"query": "profile this csv for me", "should_trigger": true}
+{"query": "which columns in this spreadsheet export have gaps?", "should_trigger": true}
+{"query": "sanity-check this CSV export before I load it", "should_trigger": true}
+{"query": "how many rows and what column types are in this export", "should_trigger": true}
+{"query": "what's the invoice total with 8% tax", "should_trigger": false}
+{"query": "convert this JSON to YAML", "should_trigger": false}
+{"query": "write the changelog for 4.0", "should_trigger": false}
+{"query": "summarise this meeting transcript", "should_trigger": false}
