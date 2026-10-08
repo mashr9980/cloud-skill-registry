@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloud-skill-registry"
+version = "0.1.0"
+description = "Central skill registry for LLM agents: progressive loading, sandboxed scripts, tenant scopes, pinned versions, trigger evals."
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115", "uvicorn>=0.30", "pyyaml>=6", "httpx>=0.27"]
+
+[project.optional-dependencies]
+s3 = ["boto3>=1.34"]
+agent = ["anthropic>=1.12"]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["registry", "agent", "evals"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
